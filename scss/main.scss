@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-inline: 50px;
+}
+.container {
+  width: 240px;
+  height: 660px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #666;
+  border-radius: 50px;
+  margin: 10px auto;
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #333;
+  }
+}
+
+
